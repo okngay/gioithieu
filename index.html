@@ -1,5 +1,4 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
     <head>
     </head>
@@ -10,12 +9,11 @@ html,body{
     height:100%;
     overflow:hidden;
 }
-
 </style>
 <img  style='height: 100%; width: 100%; object-fit: contain ' id="hinhanh">
 <script>
 function changeImage() {
-  var ngaunhien = Math.floor((Math.random() * 31) + 1); 
+ var ngaunhien = Math.floor((Math.random() * 71) + 1); 
  var image = document.getElementById('hinhanh');
    image.src = ngaunhien+".png";
 }
