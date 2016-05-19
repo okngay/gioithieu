@@ -25,10 +25,10 @@ img{
 <img  id="hinhanh">
 <script>
 function changeImage() {
-  var happyimg = ['khampha2.png', 'khampha3.png', 'khampha4.png', 'khampha5.png', 'khampha6.png', 'khampha7.png', 'khampha8.png', 'khampha9.png', 'khampha10.png'];
- var img = happyimg[Math.floor(Math.random() * happyimg.length)];
+
+  var ngaunhien = Math.floor((Math.random() * 19) + 1); 
  var image = document.getElementById('hinhanh');
-   image.src = img;
+   image.src = ngaunhien+".png";
 }
 changeImage();
 </script>
